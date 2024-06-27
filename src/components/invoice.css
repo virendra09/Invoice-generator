@@ -1,0 +1,121 @@
+
+.main-container{
+  background-color: #f9f9f9; 
+  max-width: 860px; 
+  border: 2px solid #ccc; 
+  align-self: center;
+  margin: auto;
+
+}
+
+
+/* Invoice Container */
+.invoice-wrapper {
+  font-family:'Times New Roman', Times, serif; 
+  border: 0 solid #ccc; 
+  padding: 60px; 
+  max-width: 860px; 
+  margin: auto;
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+}
+
+/* Header */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*Logo */
+.company-logo {
+  height: 80px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/*Invoice Title */
+.invoice-Title {
+  text-align: center;
+  flex: 1; 
+  margin-right: 0; 
+  font-size: 1.5em; 
+  font-weight: bold; 
+}
+
+/* Details */
+.Details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px; 
+}
+
+/* Sold By, Billing Address, Shipping Address */
+.sold-by, .billing-address, .shipping-address {
+  width: 55%; 
+  text-align: left;
+}
+
+
+
+/*  table-heading */
+.table-heading {
+  margin-top: 25px;
+}
+
+/* table-heading Table */
+.table-heading table {
+  width: 50%;
+  border-collapse: collapse;
+  background-color: #fff; 
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); 
+}
+
+/* Updated table-heading TH, TD */
+.table-heading th, .table-heading td {
+  border: 1px solid #ccc; 
+  padding: 12px; 
+  text-align: left; 
+  font-size: 0.9em; 
+}
+
+/* Totals */
+.Totals-Amount {
+  margin-top: 25px; 
+  font-size: 1.4em; 
+  font-weight: bold;
+  text-align: right; 
+  color: #333; 
+}
+
+/*place-and-invoice-detail */
+.place-and-invoice-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px; 
+  border-top: 1px solid #ccc; 
+  margin-top: 20px; 
+  text-align: left;
+}
+
+
+.signature {
+  text-align: right;
+  font-size: 1em; 
+  font-style: italic; 
+}
+
+.signature-img{
+  width:200px;
+  height:60px;
+}
+
+.reverse-charge{
+  text-align: left;
+}
+
+.order-details{
+  margin-top: 200px;
+}

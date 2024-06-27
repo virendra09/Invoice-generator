@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ba65cf;
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  padding: 20px;
+  margin: 0;
+}
+
+form {
+  background-color: #ede08e;
+background-image: url("https://www.transparenttextures.com/patterns/black-linen.png"); padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40vw;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 5px dotted #1a49f6;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #082fba;
+  background-color: #f7dfb9;
+  font-family:cursive;
+  
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group input:hover{
+  background-color: rgb(183, 248, 185);
+}
+
+
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  flex: 1 1 calc(50% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border: 1px solid #8f0681;
+ 
+}
+
+.form-group input[type="date"] {
+  flex: 1 1 calc(50% - 20px);
+}
+
+
+.form-group textarea {
+  flex: 1 1 100%;
+  height: 100px;
+}
+
+label {
+  font-size: 16px;
+}
+
+.full-width {
+  flex: 1 1 100%;
+}
+
+button {
+  background-color: #8f0681;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  margin-right: 10px;
+  border: none;
+  border-radius: 7px;
+  
+}
+
+button:hover {
+  background-color: #ebf835;
+  color:#8f0681;
+}
+
+button[type="button"] {
+  background-color: #fab037;
+}
+
+button[type="button"]:hover {
+  background-color: #ef2ee6;
+  color:#fff;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+
