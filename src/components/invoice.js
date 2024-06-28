@@ -207,10 +207,10 @@ const Invoice = ({ invoiceData }) => {
                 <td>{item.quantity}</td>
                 <td>{item.netAmount}</td>
                 <td>2.5%</td>
-                <td>{item.taxAmount.CGST}</td>
-                <td>{item.taxAmount.SGST}</td>
-                <td>{item.taxAmount.IGST}</td>
-                <td>{item.totalAmount}</td>
+                <td>{item.taxAmount.CGST.toFixed(2)}</td>
+                <td>{item.taxAmount.SGST.toFixed(2)}</td>
+                <td>{item.taxAmount.IGSTtoFixed(2)}</td>
+                <td>{item.totalAmount.toFixed(2)}</td>
               </tr>
             ))}
           </tbody>
